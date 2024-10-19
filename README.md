@@ -12,7 +12,7 @@ This project is a **Streamlit** web application that provides interactive visual
   - **Price Distribution**: A histogram that shows the distribution of laptop prices.
   - **Word Cloud**: A word cloud generated from the product names of the laptops.
   - **Correlation Heatmap**: A heatmap showing the correlation between price and rating.
-  - **Sentiment Analysis**: Sentiment scores of placeholder reviews using VADER sentiment analysis.
+  - **Sentiment Analysis**: Sentiment scores of reviews(if they exist) using VADER sentiment analysis.
 - **Download Filtered Data**: Download the filtered dataset as a CSV file.
 - **Summary Metrics**: Average price and rating of the filtered laptops.
 
