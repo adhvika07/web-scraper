@@ -1,7 +1,7 @@
 # Web Scraper for Amazon
 # 📊 Amazon Laptop Prices and Ratings Dashboard
 
-This project is a **Streamlit** web application that provides interactive visualizations and insights into the prices and ratings of laptops listed on Amazon. The dashboard allows users to filter laptops based on price and rating, view different types of data visualizations, and perform sentiment analysis on placeholder reviews.
+This project is a **Streamlit** web application that provides interactive visualizations and insights into the prices and ratings of laptops listed on Amazon. The dashboard allows users to filter laptops based on price and rating, view different types of data visualizations, and perform sentiment analysis on reviews, if they exist.
 
 ## 🚀 Features
 
