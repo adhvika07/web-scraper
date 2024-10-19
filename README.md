@@ -1,4 +1,4 @@
-# web-scraper
+# Web Scraper for Amazon
 # 📊 Amazon Laptop Prices and Ratings Dashboard
 
 This project is a **Streamlit** web application that provides interactive visualizations and insights into the prices and ratings of laptops listed on Amazon. The dashboard allows users to filter laptops based on price and rating, view different types of data visualizations, and perform sentiment analysis on placeholder reviews.
@@ -27,3 +27,24 @@ This project is a **Streamlit** web application that provides interactive visual
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/your-repository-name.git
+
+2. Navigate to the project directory:
+     ```bash
+   cd your-repository-name
+
+3. Install the required packages
+      ```bash
+   pip install -r requirements.txt
+
+
+### Run Streanlit App
+ ```bash
+streamlit run testdb.py
+ ```
+Once the server starts, open your browser and go to http://localhost:8501 to access the dashboard.
+
+### File Structure
+-**scrape.py: File which has the scraping logic and creates the .csv 
+-**testdb.py: The main Streamlit application/Dashboard.
+-**amazon_products.csv: The dataset containing laptop prices, ratings, and product names scraped from Amazon.
+-**requirements.txt: Python dependencies required for the project.
