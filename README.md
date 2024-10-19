@@ -12,7 +12,6 @@ This project is a **Streamlit** web application that provides interactive visual
   - **Price Distribution**: A histogram that shows the distribution of laptop prices.
   - **Word Cloud**: A word cloud generated from the product names of the laptops.
   - **Correlation Heatmap**: A heatmap showing the correlation between price and rating.
-  - **Sentiment Analysis**: Sentiment scores of reviews(if they exist) using VADER sentiment analysis.
 - **Download Filtered Data**: Download the filtered dataset as a CSV file.
 - **Summary Metrics**: Average price and rating of the filtered laptops.
 
@@ -64,7 +63,6 @@ The dataset created by the scrape.py file contains the following headers:
 1. **Price Distribution**: Shows how laptop prices are distributed across different ranges.
 2. **Word Cloud**: Visualizes the most common words in product names.
 3. **Correlation Heatmap**: Shows the correlation between price and rating.
-4. **Sentiment Analysis**: Performs sentiment analysis on placeholder reviews and visualizes the sentiment scores.
 
 ### 🧠 Technologies Used
 -**Python**: Core programming language.
@@ -72,7 +70,6 @@ The dataset created by the scrape.py file contains the following headers:
 -**Pandas**: For data manipulation and analysis.
 -**Matplotlib & Seaborn**: Used for data visualization.
 -**WordCloud**: To generate the word cloud.
--**VADER Sentiment Analysis**: For analyzing the sentiment of reviews.
 
 ### 💡 How to Customize
 -**Add More Visualizations**: You can easily extend this project by adding more visualizations or changing the existing ones.
