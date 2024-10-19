@@ -37,14 +37,21 @@ This project is a **Streamlit** web application that provides interactive visual
    pip install -r requirements.txt
 
 
-### Run Streanlit App
+### Run Streamlit App
  ```bash
 streamlit run testdb.py
  ```
 Once the server starts, open your browser and go to http://localhost:8501 to access the dashboard.
 
 ### File Structure
--**scrape.py: File which has the scraping logic and creates the .csv 
--**testdb.py: The main Streamlit application/Dashboard.
--**amazon_products.csv: The dataset containing laptop prices, ratings, and product names scraped from Amazon.
--**requirements.txt: Python dependencies required for the project.
+📦data-scraping/
+ ┣ 📂data/
+ ┃ ┗ 📜amazon_products.csv
+ ┣ 📜scrape.py
+ ┣ 📜testdb.py
+ ┣ 📜requirements.txt
+ ┣ 📜README.md
+ ┣ 📜.gitignore
+ 
+
+
