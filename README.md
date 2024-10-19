@@ -45,7 +45,8 @@ Once the server starts, open your browser and go to http://localhost:8501 to acc
 ### 📂 File Structure
 
 - **amazon_products.csv**: This is the file that gets formed when you run scrape.py,
-ie. it scrapes data from the amazon website and converts it to a .csv file
+ie. it scrapes data from the amazon website and converts it to a .csv file. I have uploaded my .csv file for reference,
+however it is automatically created when you run the scrape.py file.
 - **scrape.py**: Main Python script for scraping data and generating .csv file
 - **testdb.py**: Main Python script for running the Streamlit dashboard.
 - **requirements.txt**: Lists all the dependencies required for the project.
