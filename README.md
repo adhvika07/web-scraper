@@ -43,15 +43,41 @@ streamlit run testdb.py
  ```
 Once the server starts, open your browser and go to http://localhost:8501 to access the dashboard.
 
-### File Structure
-📦data-scraping/
- ┣ 📂data/
- ┃ ┗ 📜amazon_products.csv
- ┣ 📜scrape.py
- ┣ 📜testdb.py
- ┣ 📜requirements.txt
- ┣ 📜README.md
- ┣ 📜.gitignore
- 
+### 📂 File Structure
+
+- **amazon_products.csv**: File containing the data scraped from Amazon 
+- **scraoe.py**: Main Python script for scraping data and generating .csv file
+- **testdb.py**: Main Python script for running the Streamlit dashboard.
+- **requirements.txt**: Lists all the dependencies required for the project.
+- **README.md**: This file contains the project description and instructions.
 
 
+### 📊 Data
+The dataset created by the scrape.py file contains the following headers:
+
+- **Product Name**: The name of the laptop.
+- **Price**: The price of the laptop in USD.
+- **Rating**: The average customer rating of the laptop.
+
+### 🖼️ Visualizations
+
+1. **Price Distribution**: Shows how laptop prices are distributed across different ranges.
+2. **Word Cloud**: Visualizes the most common words in product names.
+3. **Correlation Heatmap**: Shows the correlation between price and rating.
+4. **Sentiment Analysis**: Performs sentiment analysis on placeholder reviews and visualizes the sentiment scores.
+
+### 🧠 Technologies Used
+-**Python**: Core programming language.
+-**Streamlit**: Framework for building the interactive web app.
+-**Pandas**: For data manipulation and analysis.
+-**Matplotlib & Seaborn**: Used for data visualization.
+-**WordCloud**: To generate the word cloud.
+-**VADER Sentiment Analysis**: For analyzing the sentiment of reviews.
+
+### 💡 How to Customize
+-**Add More Visualizations**: You can easily extend this project by adding more visualizations or changing the existing ones.
+-**Real Product Reviews**: Replace the placeholder reviews with actual product reviews by scraping or collecting data from Amazon or another platform.
+-**Improve Filtering**: Add more filter options such as brand, screen size, or processor type.
+
+### 📝 License
+This project is licensed under the MIT License.
